@@ -145,7 +145,7 @@ section div:nth-child(2) {width: 60%;}
 
 .about-me p {
     text-align: center;
-    font-size: 22px;
+    font-size: 24px;
     line-height: var(--line-height);
     margin-bottom: 20px;
 }
@@ -242,7 +242,7 @@ section div:nth-child(2) {width: 60%;}
 .card-text p {
     width: 80%;
     font-family: var(--text-normal);
-    font-size: 23px;
+    font-size: 22px;
 }
 
 .card-text a {
@@ -302,6 +302,9 @@ footer p:after {
 #display-text {
     margin-top: 25px;
     text-align: center;
+    font-size: 40px;
+    color: var(--font-pink);
+    font-family: var(--text-header);
     visibility: hidden;
 }
 
