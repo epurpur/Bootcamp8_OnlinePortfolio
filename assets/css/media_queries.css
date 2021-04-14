@@ -149,8 +149,16 @@
     /* <section> - About Me */
     /*~~~~~~~~~~~~~~~~~~~~~~*/
 
+    #about-me-section {
+        height: 700px;
+    }
+
+    .about-me {
+        display: flex;
+    }
+
     .about-me img {
-        display: none;
+        margin-bottom: 20px;
     }
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -232,8 +240,9 @@
     /* <section> - About Me */
     /*~~~~~~~~~~~~~~~~~~~~~~*/
 
-    #about-me-section {
-        height: 400px;
+    .about-me img {
+        height: 300px;
+        width: 300px;
     }
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -275,8 +284,9 @@
     /* <section> - About Me */
     /*~~~~~~~~~~~~~~~~~~~~~~*/
 
-    #about-me-section {
-        height: 425px;
+    .about-me img {
+        height: 250px;
+        width: 250px;
     }
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -310,6 +320,7 @@
     /* <section> - Work Portfolio */
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+
     .card img {
         width: 280px;
         height: 240px;
@@ -320,16 +331,28 @@
     }
 }
 
+@media screen and (max-width: 350px) {
 
-
-@media screen and (max-width: 375px) {
 
     /*~~~~~~~~~~~~~~~~~~~~~~*/
     /* <section> - About Me */
     /*~~~~~~~~~~~~~~~~~~~~~~*/
 
     #about-me-section {
-        height: 500px;
+        height: 750px;
     }
-}
 
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    /* <section> - Work Portfolio */
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+    #work-portfolio {
+        height: 3850px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+        padding-top: 30px;
+    }
+
+}
