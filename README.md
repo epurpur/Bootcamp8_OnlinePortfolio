@@ -13,4 +13,4 @@ I know I did not follow outline for required items in my portfolio exactly. I li
 
 ## Preview of Portfolio
 
-![](./assets/images/Screenshot.png)
+![](./assets/images/screenshot.png)
